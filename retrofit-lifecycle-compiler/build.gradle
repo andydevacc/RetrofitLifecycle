@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+dependencies {
+    compile deps.javapoet
+    compile project(':retrofit-lifecycle-common')
+    compileOnly deps.auto
+    compileOnly deps.retrofit
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

@@ -1,0 +1,1 @@
+include ':retrofit-lifecycle-common', ':retrofit-lifecycle-compiler', ':retrofit-lifecycle', ':sample'

@@ -29,12 +29,9 @@ Use `@RetrofitInterface` on retrofit interface:
 
 ```java
 @RetrofitInterface
-public interface UserAPI {
-    @GET("v1/user/fan")
-    Call<ResponseBody> getFanList(@Query("page_index") int pageIndex, @Query("page_size") int pageSize);
-
-    @GET("v1/user/focus")
-    Call<ResponseBody> getFocusList(@Query("page_index") int pageIndex, @Query("page_size") int pageSize);
+public interface GankAPI {
+    @GET("data/Android/10/1")
+    Call<ResponseBody> getGankList();
 }
 ```
 

@@ -64,6 +64,9 @@ RetrofitLifecycle.cancelAll(gankAPIProxy);
 
 For additional information see [sample](https://github.com/luckyandyzhang/RetrofitLifecycle/tree/master/sample) module :)
 
+## TODO
+- add support for RxJava
+
 ## License
 
     Copyright 2017 Andy

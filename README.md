@@ -20,8 +20,8 @@ Add the dependency
 
 ```groovy
 dependencies {
-    compile 'com.github.luckyandyzhang.RetrofitLifecycle:retrofit-lifecycle:1.0.0'
-    annotationProcessor 'com.github.luckyandyzhang.RetrofitLifecycle:retrofit-lifecycle-compiler:1.0.0'    
+    compile 'com.github.luckyandyzhang.RetrofitLifecycle:retrofit-lifecycle:1.0.1'
+    annotationProcessor 'com.github.luckyandyzhang.RetrofitLifecycle:retrofit-lifecycle-compiler:1.0.1'
 }	
 ```
 

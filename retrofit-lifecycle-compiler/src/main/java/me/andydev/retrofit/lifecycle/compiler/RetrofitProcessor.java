@@ -180,7 +180,6 @@ public class RetrofitProcessor extends AbstractProcessor {
                 + "       }\n"
                 + " }\n"
                 + " $L.clear();\n" //mCallListFieldName
-                + " $L = null;\n" //mCallListFieldName
                 + "}\n";
 
         return MethodSpec.methodBuilder("cancelAll")
@@ -188,8 +187,7 @@ public class RetrofitProcessor extends AbstractProcessor {
                 .addParameter(ArrayTypeName.of(Call.class), excludeCalls)
                 .addModifiers(Modifier.PUBLIC)
                 .addCode(code, excludeCalls, mCallListFieldName, ClassName.get(Arrays.class),
-                        excludeCalls, mCallListFieldName, mCallListFieldName, mCallListFieldName,
-                        mCallListFieldName)
+                        excludeCalls, mCallListFieldName, mCallListFieldName, mCallListFieldName)
                 .build();
     }
 
